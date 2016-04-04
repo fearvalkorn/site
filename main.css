@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: Lol;
+	src:url(../Lol font.ttf);
+}
+body{
+	font-family: Lol;
+	background: #66cc00;
+}
+header{
+	background: white;
+
+}
+#wrapp{
+	width: 90%;
+	margin: 0 auto;
+}
+
+header img {
+	width: 500px;
+	height: 200px;
+	float: left;
+}
+header h1{
+	float:right;
+	margin-right: 190px;
+	font-size: 4em;
+	margin-top: 50px;
+}
+.clr {
+	clear: both;
+}
+
+nav ul{
+	list-style: none;
+	font-family: tahoma;
+
+
+
+}
+nav ul li{
+	display: inline-block;
+	width: 100px;
+	height:30px;
+	line-height: 30px;
+	margin-right: 160px;
+	font-size: 1em;
+}
+nav ul li:first-child{
+	margin-left: 60px;
+	}
+nav ul li:hover{
+	color:blue;
+	cursor: pointer;
+
+}
+nav ul li:active{
+	color:red;
+	
+}
+article{
+	padding: 30px;
+}
+article img{
+	height: 500px;
+	float: left;
+	margin-right: 50px;
+}
+article h2 {
+	text-align: center;
+	font-size: 2.5em;
+	color: #8AFFB1;
+	font-family: tahoma;
+}
+article p {
+	padding:20px;
+	font-family: tahoma;
+	font-size: 1.2em;
+	color: #0066FF;
+	border: 1px solid gray;
+
+}
+a {
+	font-size: 1.5em;
+	float: right;
+	margin-top: 70px;
+}
+.hr{
+	width: 75%;
+	border-bottom: 2px solid #FF1919;
+	box-shadow: 5px 5px 5px silver;
+	margin: 50px auto;
+}
